@@ -23,7 +23,8 @@ nma-ards-corticosteroid/
 ├── src
 │   ├── MBNMAdose_model-fitting_DRC.R      # Code to compare models and DRC
 │   └── NetworkPlot.R                      # Code to generate network plots
-├── LICENSE                                # License file
+├── LICENSE                                # License file about codes
+├── DATA_LICENSE                           # License file about dataset usage
 ├── README.md                              # This file
 └── nma-ards-corticosteroid.Rproj          # R project file
 ```
