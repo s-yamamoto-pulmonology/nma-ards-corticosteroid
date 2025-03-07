@@ -88,6 +88,5 @@ The provided scripts automatically install and load these R packages if not alre
 ## License
 
 This project is licensed under the MIT License.\
-For details, please refer to [LICENSE](LICENSE).
-
+For details, please refer to [LICENSE](LICENSE).\
 For using these datasets, please refer to [DATA_LICENSE](DATA_LICENSE).
