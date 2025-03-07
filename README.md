@@ -1,4 +1,4 @@
-# Dose-Response Network Meta-Analysis for ARDS Corticosteroid Treatment
+# Comparison of Corticosteroid Regimens for Acute Respiratory Distress Syndrome
 
 This repository contains R code and datasets for a dose-response network meta-analysis (NMA) performed to identify the optimal corticosteroid regimen for Acute Respiratory Distress Syndrome (ARDS).
 
@@ -8,8 +8,18 @@ This repository contains R code and datasets for a dose-response network meta-an
 nma-ards-corticosteroid/
 ├── data/
 │   ├── drc_28-30d-mortality.csv
+│   ├── drc_90d-mortality.csv
+│   ├── drc_barotrauma.csv
+│   ├── drc_bleeding.csv
+│   ├── drc_hospital-mortality.csv
+│   ├── drc_hyperglycemia.csv
+│   ├── drc_icu-mortality.csv
+│   ├── drc_last-follow-up-mortality.csv
+│   ├── drc_superinfection.csv
+│   ├── drc_ventilator-free-days.csv
+│   ├── drc_weakness.csv
 │   ├── np_28-30d-mortality_equal-dose_model.csv
-│   └ np_28-30d-mortality_exchangeable-dose_model.csv
+│   └── np_28-30d-mortality_exchangeable-dose_model.csv
 ├── src
 │   ├── MBNMAdose_model-fitting_DRC.R      # Code to compare models and DRC
 │   └── NetworkPlot.R                      # Code to generate network plots
